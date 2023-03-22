@@ -1,7 +1,7 @@
-package dbService.dao;
+package main.dao;
 
-import accounts.UserProfile;
-import dbService.dataSets.UsersDataSet;
+import main.accounts.UserProfile;
+import main.dataSets.UsersDataSet;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 

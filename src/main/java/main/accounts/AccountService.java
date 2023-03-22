@@ -1,12 +1,7 @@
-package accounts;
+package main.accounts;
 
-import dbService.DBException;
-import dbService.DBService;
-import dbService.dataSets.UsersDataSet;
-import org.h2.engine.User;
-
-import java.util.HashMap;
-import java.util.Map;
+import main.DBException;
+import main.DBService;
 
 public class AccountService {
     DBService dbService;

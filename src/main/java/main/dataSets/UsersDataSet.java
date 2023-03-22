@@ -1,7 +1,6 @@
-package dbService.dataSets;
+package main.dataSets;
 
-import accounts.UserProfile;
-import org.h2.engine.User;
+import main.accounts.UserProfile;
 
 import javax.persistence.*;
 import java.io.Serializable;

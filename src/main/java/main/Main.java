@@ -1,17 +1,20 @@
-package org.example;
+package main;
 
-import accounts.AccountService;
-import dbService.DBService;
+import main.servlets.SignUpServlet;
+import main.accounts.AccountService;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
-import servlets.SignInServlet;
-import servlets.SignUpServlet;
+import main.servlets.SignInServlet;
 
 public class Main {
     public static void main(String[] args) {
         DBService dbService = new DBService();
         dbService.printConnectInfo();
+
+        Integer a = new Integer(5);
+        System.out.println(a.byteValue());
+        System.out.println();
 
         AccountService accountService = new AccountService(dbService);
 

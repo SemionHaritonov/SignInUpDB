@@ -1,4 +1,4 @@
-package dbService;
+package main;
 
 public class DBException extends Exception {
     public DBException(Throwable throwable) {

@@ -1,9 +1,8 @@
-package servlets;
+package main.servlets;
 
-import accounts.AccountService;
-import accounts.UserProfile;
-import dbService.DBException;
-import dbService.DBService;
+import main.DBException;
+import main.accounts.UserProfile;
+import main.accounts.AccountService;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
